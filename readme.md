@@ -39,7 +39,7 @@ This is a backend system for managing financial records with role based access c
 - Analyst → Read-only
 - Viewer → Read-only
 
-## 📘 API Documentation
+## API Documentation
 
 Interactive API docs available at:
 - Swagger UI: http://localhost:8000/docs
@@ -52,6 +52,7 @@ Interactive API docs available at:
 ```bash
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 
 ## Demo Flow
 
