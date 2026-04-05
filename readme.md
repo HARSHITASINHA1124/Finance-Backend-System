@@ -16,13 +16,18 @@ This is a backend system for managing financial records with role based access c
 - Dashboard summary APIs
 - Input validation and error handling
 
-## 🏗️ Project Structure
+## Project Structure
 
 finance-backend/
+
 ├── main.py        # API routes
+
 ├── models.py      # Database models
+
 ├── schemas.py     # Request/response validation
+
 ├── database.py    # DB connection
+
 ├── requirements.txt
 
 ## API Endpoints
