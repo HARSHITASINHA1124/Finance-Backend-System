@@ -80,6 +80,10 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
+## 🌐 Live API
+
+https://finance-backend.onrender.com/docs
+
 ## Demo Flow
 
 1. Create an Admin User using POST /users  
