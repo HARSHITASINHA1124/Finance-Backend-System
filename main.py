@@ -13,14 +13,7 @@ tags_metadata = [
     {"name": "Summary", "description": "Dashboard analytics APIs"},
 ]
 
-app = FastAPI(
-    title="Finance Dashboard Backend API",
-    description="Backend system for managing financial records with role-based access control and analytics.",
-    version="1.0.0",
-    openapi_tags=tags_metadata,
-    docs_url="/docs",
-    redoc_url="/redoc"
-)
+app = FastAPI()
 
 Base.metadata.create_all(bind=engine)
 
