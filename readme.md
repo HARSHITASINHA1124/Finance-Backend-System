@@ -74,7 +74,7 @@ POST /records
 ## Assumptions
 - Authentication is simulated using `user_id` query parameter
 
-## How to Run
+## How to Run on localhost
 ```bash
 pip install -r requirements.txt
 uvicorn main:app --reload
@@ -82,7 +82,8 @@ uvicorn main:app --reload
 
 ## 🌐 Live API
 
-https://finance-backend.onrender.com/docs
+-> https://finance-backend.onrender.com/docs
+-> https://finance-backend.onrender.com/redoc
 
 ## Demo Flow
 
