@@ -82,8 +82,8 @@ uvicorn main:app --reload
 
 ## 🌐 Live API
 
--> https://finance-backend.onrender.com/docs
--> https://finance-backend.onrender.com/redoc
+-> https://finance-backend-system-nqhh.onrender.com/docs
+-> https://finance-backend-system-nqhh.onrender.com/redoc
 
 ## Demo Flow
 
